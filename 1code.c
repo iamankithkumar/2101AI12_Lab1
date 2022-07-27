@@ -19,3 +19,8 @@ int main()
       printf("%f - %f = %f",a,b,a-b);
       break;
     }
+    case 3:
+    {
+      printf("%f * %f = %f",a,b,a*b);
+      break;
+    }
