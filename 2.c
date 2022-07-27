@@ -149,3 +149,25 @@ void quickSort(int A[], int low, int high)
         quickSort(A, partitionIndex + 1, high); // sort right subarray
     }
 }
+int main()
+{
+    int arr[] = {64, 25, 12, 22, 11};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    selectionSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    insertionSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+     bubbleSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    mergeSort(arr, 0, n- 1);
+    printf("Sorted array is \n");
+    printArray(arr, n);
+    quickSort(arr, 0, n - 1);
+    printf("Sorted array in ascending order: \n");
+    printArray(arr, n);
+
+    return 0;
+}
