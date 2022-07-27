@@ -4,3 +4,13 @@ int main()
   float a,b;
   printf("Enter the numbers = ");
   scanf("%f%f",&a,&b);
+  int op;
+  printf("Select the operation (1 for +, 2 for -, 3 for *, 4 for /) = ");
+  scanf("%d",&op);
+  switch(op)
+  {
+    case 1:
+    {
+      printf("%f + %f = %f",a,b,a+b);
+      break;
+    }
