@@ -24,3 +24,8 @@ int main()
       printf("%f * %f = %f",a,b,a*b);
       break;
     }
+    case 4:
+    {
+      printf("%f / %f = %f",a,b,a/b);
+      break;
+    }
