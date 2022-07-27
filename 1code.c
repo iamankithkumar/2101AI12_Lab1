@@ -29,3 +29,6 @@ int main()
       printf("%f / %f = %f",a,b,a/b);
       break;
     }
+  }
+  return 0;
+}
